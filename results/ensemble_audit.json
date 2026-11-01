@@ -1,0 +1,83 @@
+{
+ "recovered_weights": {
+  "XGBoost": 0.0579,
+  "LightGBM": 0.3024,
+  "CatBoost": 0.0124,
+  "RandomForest": 0.0571,
+  "Logistic": 0.5702
+ },
+ "recovery_max_abs_error": 8.881784197001252e-16,
+ "auc_reported": 0.7558760683760684,
+ "auc_base_models": {
+  "XGBoost": 0.703,
+  "LightGBM": 0.7308,
+  "CatBoost": 0.7009,
+  "RandomForest": 0.7254,
+  "Logistic": 0.7244
+ },
+ "auc_equal_weights": 0.7227564102564102,
+ "auc_in_sample_best": 0.7532051282051282,
+ "in_sample_best_weights": [
+  0.051,
+  0.394,
+  0.004,
+  0.063,
+  0.489
+ ],
+ "auc_nested_blend": 0.7318376068376068,
+ "auc_nested_best_single": 0.6848290598290598,
+ "ensemble_decomposition": {
+  "auc": 0.7558760683760684,
+  "auc_within": 0.7181208053691275,
+  "auc_between": 0.7630241423125794,
+  "n_pairs": 1872.0,
+  "n_within": 298.0,
+  "n_between": 1574.0,
+  "w_within": 0.15918803418803418
+ },
+ "ensemble_cluster_ci": [
+  0.5467947454844007,
+  0.8650184973196335
+ ],
+ "nested_blend_decomposition": {
+  "auc": 0.7318376068376068,
+  "auc_within": 0.6845637583892618,
+  "auc_between": 0.7407878017789072,
+  "n_pairs": 1872.0,
+  "n_within": 298.0,
+  "n_between": 1574.0,
+  "w_within": 0.15918803418803418
+ },
+ "nested_blend_cluster_ci": [
+  0.5231463675213676,
+  0.8490194194619066
+ ],
+ "prevalence_loo_decomposition": {
+  "auc": 0.7387820512820513,
+  "auc_within": 0.0,
+  "auc_between": 0.8786531130876747,
+  "n_pairs": 1872.0,
+  "n_within": 298.0,
+  "n_between": 1574.0,
+  "w_within": 0.15918803418803418
+ },
+ "prevalence_loo_cluster_ci": [
+  0.3396491565971942,
+  0.9804418193795663
+ ],
+ "ens_vs_prev": {
+  "delta": 0.017094017094017033,
+  "delong_z": 0.24902858180300907,
+  "delong_p": 0.8033386726332448,
+  "clustered_z": 0.08405314898671264,
+  "clustered_p": 0.9339960518985377,
+  "clustered_se": 0.20337152504208014
+ },
+ "spearman_ens_prevalence_in_sample": 0.4031972678909924,
+ "spearman_ens_prevalence_loo": 0.37965213895953154,
+ "ensemble_within_gene": {
+  "auc_within": 0.7181208053691275,
+  "p_one_sided": 0.011498850114988501,
+  "p_two_sided": 0.022497750224977502
+ }
+}

@@ -1,0 +1,7 @@
+model,split,auc,auc_within,auc_between,cal_intercept,cal_slope,brier,mean_pred
+Position-level scores,variant,0.2778,0.4463,0.2459,-0.4841,-10.4663,0.2614,0.4985
+Position-level scores,gene,0.1517,0.2886,0.1258,-1.2697,-5.5318,0.2983,0.4608
+Full 19-feature model,variant,0.6672,0.6007,0.6798,-0.3534,0.4955,0.2306,0.4729
+Full 19-feature model,gene,0.594,0.5503,0.6023,-0.2579,0.2775,0.2541,0.4108
+AlphaMissense only,variant,0.8841,0.8221,0.8958,-0.3669,1.0538,0.1162,0.4527
+AlphaMissense only,gene,0.8739,0.896,0.8698,-0.6217,0.9133,0.1305,0.4871

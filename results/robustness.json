@@ -1,0 +1,33 @@
+{
+ "within_full_cohort": {
+  "AlphaMissense (variant)": 0.8959731543624161,
+  "DCS": 0.6812080536912751,
+  "RCS": 0.6677852348993288,
+  "Conservation": 0.6677852348993288,
+  "Normalised mobility": 0.48322147651006714
+ },
+ "within_drop_PGK1": {
+  "within_AlphaMissense (variant)": 0.8,
+  "within_DCS": 0.2,
+  "within_RCS": 0.0,
+  "within_Conservation": 0.0,
+  "within_Normalised mobility": 0.4
+ },
+ "n_within_pairs_drop_PGK1": 10,
+ "pos_auc_range_over_drops": [
+  0.1405,
+  0.5484
+ ],
+ "pos_auc_most_influential": "HMGCS2",
+ "null_check_max_quantile_difference": 0.006711409395973145,
+ "within_null_mean": 0.4992395973154362,
+ "within_null_95": [
+  0.3053691275167785,
+  0.6912751677852349
+ ],
+ "min_detectable_within_auc_80": 0.7583904109589041,
+ "power_at_065": 0.35275,
+ "power_at_070": 0.553,
+ "median_paired_ci_width": 0.38935,
+ "n_paired_excluding_zero": 2
+}

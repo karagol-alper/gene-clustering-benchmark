@@ -1,0 +1,102 @@
+{
+ "association": {
+  "chi2": 44.69,
+  "df": 17,
+  "p_asymptotic": 0.0002711572980956931,
+  "p_monte_carlo": 9.99990000099999e-06,
+  "n_mc": 100000,
+  "frac_expected_lt5": 0.8611111111111112,
+  "cramers_v": 0.713,
+  "ri_alpha": -1.567837851343528,
+  "ri_beta": [],
+  "ri_sigma": 4.26903009388562,
+  "ri_sigma_lo": 1.6058496777375293,
+  "ri_sigma_hi": 16.187500519935067,
+  "ri_icc_latent": 0.8470859065819757,
+  "ri_icc_lo": 0.4394137986344812,
+  "ri_icc_hi": 0.9876006119942111,
+  "ri_loglik": -47.09881271122036,
+  "ri_integration": "trapezoidal, 96001 points on [-12, 12]"
+ },
+ "pairs": {
+  "n_pairs": 1872,
+  "n_within": 298,
+  "n_between": 1574,
+  "w_within": 0.15918803418803418,
+  "per_gene": {
+   "GHRHR": 6,
+   "KAT8": 4,
+   "PGK1": 288
+  },
+  "n_mixed_genes": 3,
+  "n_single_class_genes": 15,
+  "n_variants_in_single_class_genes": 44
+ },
+ "prevalence": {
+  "in_sample": {
+   "auc": 0.8915598290598291,
+   "auc_within": 0.5,
+   "auc_between": 0.96569250317662,
+   "n_pairs": 1872,
+   "n_within": 298,
+   "n_between": 1574,
+   "w_within": 0.15918803418803418
+  },
+  "variant_loo": {
+   "auc": 0.7387820512820513,
+   "auc_within": 0.0,
+   "auc_between": 0.8786531130876747,
+   "n_pairs": 1872,
+   "n_within": 298,
+   "n_between": 1574,
+   "w_within": 0.15918803418803418
+  },
+  "gene_loo": {
+   "auc": 0.1891025641025641,
+   "auc_within": 0.5,
+   "auc_between": 0.13024142312579415,
+   "n_pairs": 1872,
+   "n_within": 298,
+   "n_between": 1574,
+   "w_within": 0.15918803418803418
+  }
+ },
+ "observed": {
+  "C1": {
+   "auc": 0.6800213675213675,
+   "auc_within": 0.6040268456375839,
+   "auc_between": 0.6944091486658196,
+   "n_pairs": 1872.0,
+   "n_within": 298.0,
+   "n_between": 1574.0,
+   "w_within": 0.15918803418803418
+  },
+  "C8": {
+   "auc": 0.594017094017094,
+   "auc_within": 0.5503355704697986,
+   "auc_between": 0.602287166454892,
+   "n_pairs": 1872.0,
+   "n_within": 298.0,
+   "n_between": 1574.0,
+   "w_within": 0.15918803418803418
+  },
+  "POS": {
+   "auc": 0.1517094017094017,
+   "auc_within": 0.28859060402684567,
+   "auc_between": 0.12579415501905972,
+   "n_pairs": 1872.0,
+   "n_within": 298.0,
+   "n_between": 1574.0,
+   "w_within": 0.15918803418803418
+  },
+  "POSV": {
+   "auc": 0.2783119658119658,
+   "auc_within": 0.4463087248322148,
+   "auc_between": 0.24650571791613723,
+   "n_pairs": 1872.0,
+   "n_within": 298.0,
+   "n_between": 1574.0,
+   "w_within": 0.15918803418803418
+  }
+ }
+}

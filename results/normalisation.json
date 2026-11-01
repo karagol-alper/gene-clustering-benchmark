@@ -1,0 +1,19 @@
+{
+ "provenance": {
+  "dcs_mult_min": 10.010010009304644,
+  "dcs_mult_max": 31.682493472558587,
+  "rcs_mult_min": 10.23002847460963,
+  "rcs_mult_max": 13.109615171048498,
+  "rmsf_max_min": 3.1433333333333313,
+  "rmsf_max_max": 18.693333333333342,
+  "n_cohort_proteins": 18,
+  "n_max_nd_below_0_5": 11,
+  "median_max_nd": 0.4206053674134783
+ },
+ "gene_identity": {
+  "n_genes_labelled": 8,
+  "n_variants_labelled": 76,
+  "n_proteins_all": 15,
+  "n_residues_all": 623
+ }
+}

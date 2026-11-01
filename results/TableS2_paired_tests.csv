@@ -1,0 +1,14 @@
+comparison,auc_1,auc_2,difference,delong_z,delong_p,clustered_z,clustered_p,clustered_se_diff
+"AlphaMissense (variant score) vs Exploratory ensemble (variant-level, as reported)",0.919,0.756,0.163,3.44,0.00059,3.4,0.00344,0.048
+"Exploratory ensemble (variant-level, as reported) vs Gene prevalence (variant excluded)",0.756,0.739,0.017,0.25,0.803,0.08,0.934,0.203
+AlphaMissense (variant score) vs Full 19-feature model (C8) †,0.919,0.594,0.325,4.65,3.33e-06,8.19,2.65e-07,0.04
+AlphaMissense (variant score) vs AlphaMissense only †,0.919,0.874,0.045,2.44,0.0148,2.84,0.0113,0.016
+AlphaMissense only † vs AlphaMissense + position-level scores †,0.874,0.854,0.02,1.98,0.0474,1.59,0.129,0.012
+AlphaMissense only † vs AlphaMissense + full feature set †,0.874,0.873,0.001,0.08,0.94,0.07,0.944,0.015
+Full 19-feature model (C8) † vs Substitution descriptors only †,0.594,0.635,-0.041,-1.79,0.073,-3.1,0.00646,0.013
+Full 19-feature model (C8) † vs Position-level scores only †,0.594,0.152,0.442,6.05,1.49e-09,4.46,0.000341,0.099
+Substitution descriptors only † vs Position-level scores only †,0.635,0.152,0.483,6.33,2.39e-10,4.88,0.000141,0.099
+DCS vs Conservation (reconstructed),0.538,0.525,0.013,0.2,0.838,0.16,0.871,0.078
+DCS vs RCS,0.538,0.518,0.02,0.26,0.795,0.22,0.826,0.089
+AlphaMissense (residue mean) vs DCS,0.872,0.538,0.334,4.07,4.69e-05,1.89,0.0763,0.177
+AlphaMissense (variant score) vs AlphaMissense (residue mean),0.919,0.872,0.048,2.23,0.0259,1.89,0.0763,0.025

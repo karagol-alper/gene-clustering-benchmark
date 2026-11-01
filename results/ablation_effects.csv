@@ -1,0 +1,16 @@
+effect,order,auc_effect
+split,1,0.0435
+scaling,1,-0.0049
+selection,1,0.018
+tuning,1,-0.0124
+split x scaling,2,0.0078
+split x selection,2,-0.0276
+split x tuning,2,0.0107
+scaling x selection,2,0.0039
+scaling x tuning,2,0.0083
+selection x tuning,2,0.0175
+split x scaling x selection,3,-0.0085
+split x scaling x tuning,3,-0.0033
+split x selection x tuning,3,-0.0069
+scaling x selection x tuning,3,-0.0053
+split x scaling x selection x tuning,4,0.0028

@@ -1,0 +1,7 @@
+comparison,within_1,within_2,difference,ci_lo,ci_hi,ci_width,excludes_zero
+DCS vs Conservation,0.6812,0.6678,0.0134,-0.1644,0.2014,0.3659,False
+RCS vs Conservation,0.6678,0.6678,0.0,-0.1107,0.1142,0.2249,False
+DCS vs RCS,0.6812,0.6678,0.0134,-0.2315,0.2685,0.5,False
+Normalised mobility vs Conservation,0.4832,0.6678,-0.1846,-0.4799,0.1409,0.6208,False
+AlphaMissense (variant) vs DCS,0.896,0.6812,0.2148,0.0067,0.4195,0.4128,True
+AlphaMissense (variant) vs Conservation,0.896,0.6678,0.2282,0.0805,0.406,0.3255,True

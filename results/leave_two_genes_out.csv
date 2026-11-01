@@ -1,0 +1,4 @@
+model,auc_between_lpgo,n_pairs,auc_between_logo,difference
+Position-level scores,0.216,1574,0.1258,0.0902
+Full 19-feature model,0.554,1574,0.6023,-0.0483
+AlphaMissense only,0.9238,1574,0.8698,0.054

@@ -1,0 +1,16 @@
+encoding,description,n_features,auc_gene,ap_gene,within_gene,between_gene,auc_variant,ap_variant
+published,"DCS, RCS, normalised DCS as published (per-protein min-max, 0-10)",3,0.1517,0.2671,0.2886,0.1258,0.2778,0.3042
+unrescaled,conservation x mobility products before per-protein rescaling,2,0.2089,0.286,0.2718,0.197,0.3755,0.3492
+components,conservation and normalised mobility,2,0.2217,0.2879,0.302,0.2065,0.3814,0.3344
+conservation,conservation alone,1,0.2297,0.3043,0.2987,0.2166,0.3734,0.3426
+mobility,normalised mobility alone,1,0.36,0.3287,0.5168,0.3304,0.4343,0.3639
+rmsf,"mean backbone RMSF (absolute, Angstrom)",1,0.5828,0.4388,0.5168,0.5953,0.6068,0.496
+pct_protein,"within-protein percentile, label-free reference",3,0.2543,0.2931,0.2617,0.2529,0.3403,0.3218
+pct_cohort,within-gene percentile among labelled variants,3,0.336,0.3244,0.2483,0.3526,0.4418,0.3638
+z_cohort,within-gene z-score among labelled variants,3,0.3424,0.3517,0.2752,0.3551,0.4423,0.3602
+ctr_cohort,within-gene centring among labelled variants,3,0.289,0.3323,0.2617,0.2942,0.437,0.3554
+am_res,AlphaMissense residue mean (absolute scale),1,0.8446,0.765,0.7718,0.8583,0.8547,0.7541
+am_res_minmax,"AlphaMissense residue mean, per-protein min-max",1,0.8472,0.7679,0.7718,0.8615,0.8552,0.789
+am_res_xdcs,AlphaMissense residue mean x published DCS multiplier,1,0.8584,0.7648,0.7718,0.8748,0.8547,0.7562
+am_res_pct,"AlphaMissense residue mean, within-protein percentile",1,0.7917,0.7582,0.7718,0.7954,0.7906,0.7655
+substitution,16 substitution descriptors,16,0.6351,0.5456,0.6074,0.6404,0.6672,0.575

@@ -1,0 +1,55 @@
+model,gene,n,train_prevalence,gene_prevalence,mean_prediction
+Position-level scores,ANGPTL6,2,0.4186,0.0,0.5026
+Position-level scores,BLMH,3,0.4235,0.0,0.5246
+Position-level scores,GBP1,13,0.48,0.0,0.5091
+Position-level scores,GHRHR,5,0.4096,0.4,0.4803
+Position-level scores,HMGCS2,9,0.3418,1.0,0.3048
+Position-level scores,KAT8,5,0.3855,0.8,0.4713
+Position-level scores,LGALS3BP,3,0.4235,0.0,0.5373
+Position-level scores,MSN,1,0.4023,1.0,0.5113
+Position-level scores,NARS1,2,0.3953,1.0,0.4782
+Position-level scores,NT5C2,1,0.4138,0.0,0.5355
+Position-level scores,PARP3,4,0.4286,0.0,0.532
+Position-level scores,PGK1,34,0.3704,0.4706,0.4447
+Position-level scores,PPARA,1,0.4138,0.0,0.4802
+Position-level scores,SPRTN,1,0.4023,1.0,0.5029
+Position-level scores,STAMBPL1,1,0.4138,0.0,0.4848
+Position-level scores,TBRG1,1,0.4023,1.0,0.5066
+Position-level scores,TPH1,1,0.4138,0.0,0.5254
+Position-level scores,TTC5,1,0.4138,0.0,0.4864
+Full 19-feature model,ANGPTL6,2,0.4186,0.0,0.697
+Full 19-feature model,BLMH,3,0.4235,0.0,0.2213
+Full 19-feature model,GBP1,13,0.48,0.0,0.3397
+Full 19-feature model,GHRHR,5,0.4096,0.4,0.5278
+Full 19-feature model,HMGCS2,9,0.3418,1.0,0.544
+Full 19-feature model,KAT8,5,0.3855,0.8,0.3681
+Full 19-feature model,LGALS3BP,3,0.4235,0.0,0.4381
+Full 19-feature model,MSN,1,0.4023,1.0,0.7325
+Full 19-feature model,NARS1,2,0.3953,1.0,0.5355
+Full 19-feature model,NT5C2,1,0.4138,0.0,0.2876
+Full 19-feature model,PARP3,4,0.4286,0.0,0.5132
+Full 19-feature model,PGK1,34,0.3704,0.4706,0.3754
+Full 19-feature model,PPARA,1,0.4138,0.0,0.3141
+Full 19-feature model,SPRTN,1,0.4023,1.0,0.268
+Full 19-feature model,STAMBPL1,1,0.4138,0.0,0.2668
+Full 19-feature model,TBRG1,1,0.4023,1.0,0.488
+Full 19-feature model,TPH1,1,0.4138,0.0,0.2073
+Full 19-feature model,TTC5,1,0.4138,0.0,0.5352
+AlphaMissense only,ANGPTL6,2,0.4186,0.0,0.1979
+AlphaMissense only,BLMH,3,0.4235,0.0,0.1007
+AlphaMissense only,GBP1,13,0.48,0.0,0.1471
+AlphaMissense only,GHRHR,5,0.4096,0.4,0.2643
+AlphaMissense only,HMGCS2,9,0.3418,1.0,0.8261
+AlphaMissense only,KAT8,5,0.3855,0.8,0.885
+AlphaMissense only,LGALS3BP,3,0.4235,0.0,0.1778
+AlphaMissense only,MSN,1,0.4023,1.0,0.8033
+AlphaMissense only,NARS1,2,0.3953,1.0,0.3699
+AlphaMissense only,NT5C2,1,0.4138,0.0,0.0989
+AlphaMissense only,PARP3,4,0.4286,0.0,0.0969
+AlphaMissense only,PGK1,34,0.3704,0.4706,0.6866
+AlphaMissense only,PPARA,1,0.4138,0.0,0.1461
+AlphaMissense only,SPRTN,1,0.4023,1.0,0.5901
+AlphaMissense only,STAMBPL1,1,0.4138,0.0,0.1015
+AlphaMissense only,TBRG1,1,0.4023,1.0,0.1076
+AlphaMissense only,TPH1,1,0.4138,0.0,0.1231
+AlphaMissense only,TTC5,1,0.4138,0.0,0.1004

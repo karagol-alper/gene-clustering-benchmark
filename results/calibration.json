@@ -1,0 +1,6 @@
+{
+ "fold_mean_pred_vs_train_prevalence_r": 0.7396359008668787,
+ "fold_mean_pred_vs_gene_prevalence_r": -0.45440113408285315,
+ "train_vs_gene_prevalence_r": -0.6268253071445739,
+ "n_gene_pairs": 153
+}

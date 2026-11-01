@@ -1,0 +1,12 @@
+model,correction,auc,auc_within,auc_between,cluster_ci
+Position-level scores,none,0.1517,0.2886,0.1258,0.028-0.267
+Position-level scores,prior shift,0.2975,0.2886,0.2992,0.118-0.570
+Position-level scores,fold rank,0.1496,0.2886,0.1233,0.032-0.272
+Full 19-feature model,none,0.594,0.5503,0.6023,0.501-0.730
+Full 19-feature model,prior shift,0.6298,0.5503,0.6449,0.531-0.788
+Full 19-feature model,fold rank,0.617,0.5503,0.6296,0.532-0.758
+AlphaMissense only,none,0.8739,0.896,0.8698,0.776-0.978
+AlphaMissense only,prior shift,0.8878,0.896,0.8863,0.812-0.989
+AlphaMissense only,fold rank,0.8766,0.896,0.8729,0.799-0.991
+Training prevalence only,none,0.1891,0.5,0.1302,—
+Training prevalence only,prior shift,0.5,0.5,0.5,—

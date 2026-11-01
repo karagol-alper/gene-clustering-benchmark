@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software or the diagnostics it implements, please cite the article below."
+title: "depbench: diagnostics for benchmarks on gene-clustered variant cohorts"
+abstract: >-
+  Analysis code for the within-gene/between-gene decomposition of the AUC and
+  the accompanying baselines, permutation nulls, calibration corrections and
+  power calculations for variant-effect benchmarks on cohorts in which
+  labelled variants are clustered by gene.
+type: software
+license: MIT
+authors:
+  - family-names: "Karagöl"
+    given-names: "Taner"
+    email: karagolt@mit.edu
+    orcid: "https://orcid.org/0009-0005-1011-7661"
+    affiliation: "Istanbul University, Istanbul Medical Faculty, Istanbul, Turkey; present address: McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA"
+  - family-names: "Karagöl"
+    given-names: "Alper"
+    email: akaragol@mit.edu
+    orcid: "https://orcid.org/0009-0001-7864-0732"
+    affiliation: "Istanbul University, Istanbul Medical Faculty, Istanbul, Turkey; present address: Broad Institute of MIT and Harvard, and Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA"
+keywords:
+  - variant effect prediction
+  - benchmarking
+  - data leakage
+  - cross-validation
+  - clustered data
+  - AlphaMissense
+  - protein dynamics
+preferred-citation:
+  type: article
+  title: "Gene-level clustering confounds cross-validated benchmarks of structure-informed missense variant classifiers"
+  year: 2026
+  authors:
+    - family-names: "Karagöl"
+      given-names: "Taner"
+      orcid: "https://orcid.org/0009-0005-1011-7661"
+    - family-names: "Karagöl"
+      given-names: "Alper"
+      orcid: "https://orcid.org/0009-0001-7864-0732"
+  notes: "Taner Karagöl and Alper Karagöl contributed equally and are joint corresponding authors. Journal, volume and DOI to be added on publication."

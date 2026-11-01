@@ -1,0 +1,24 @@
+set,encoding,description,bacc,acc,null_mean,null_sd,p,k,majority
+labelled,published,"DCS, RCS, normalised DCS as published (per-protein min-max, 0-10)",0.2637,0.5605,0.1265,0.0273,0.0196,8.0,0.4474
+labelled,unrescaled,conservation x mobility products before per-protein rescaling,0.2462,0.5132,0.1275,0.0364,0.0196,8.0,0.4474
+labelled,components,conservation and normalised mobility,0.2114,0.5079,0.1251,0.0408,0.0588,8.0,0.4474
+labelled,conservation,conservation alone,0.1971,0.3,0.1202,0.0407,0.0784,8.0,0.4474
+labelled,mobility,normalised mobility alone,0.2052,0.3395,0.1165,0.0383,0.0196,8.0,0.4474
+labelled,rmsf,"mean backbone RMSF (absolute, Angstrom)",0.2009,0.3711,0.117,0.0428,0.0588,8.0,0.4474
+labelled,pct_protein,"within-protein percentile, label-free reference",0.0665,0.2263,0.1202,0.0349,1.0,8.0,0.4474
+labelled,am_res,AlphaMissense residue mean (absolute scale),0.1897,0.3026,0.1073,0.041,0.0784,8.0,0.4474
+labelled,am_res_minmax,"AlphaMissense residue mean, per-protein min-max",0.1824,0.3026,0.112,0.0379,0.0784,8.0,0.4474
+labelled,am_res_xdcs,AlphaMissense residue mean x published DCS multiplier,0.2588,0.4211,0.1214,0.0398,0.0196,8.0,0.4474
+labelled,am_res_pct,"AlphaMissense residue mean, within-protein percentile",0.0674,0.1789,0.1185,0.0478,0.8824,8.0,0.4474
+labelled,substitution,16 substitution descriptors,0.1737,0.3842,0.1333,0.05,0.1765,8.0,0.4474
+all_clinvar,published,"DCS, RCS, normalised DCS as published (per-protein min-max, 0-10)",0.1443,0.2559,0.0655,0.0102,0.0196,15.0,0.2729
+all_clinvar,unrescaled,conservation x mobility products before per-protein rescaling,0.1271,0.2681,0.067,0.0124,0.0196,15.0,0.2729
+all_clinvar,components,conservation and normalised mobility,0.1564,0.2934,0.0685,0.0104,0.0196,15.0,0.2729
+all_clinvar,conservation,conservation alone,0.1158,0.1586,0.0683,0.014,0.0196,15.0,0.2729
+all_clinvar,mobility,normalised mobility alone,0.1055,0.2083,0.0682,0.013,0.0196,15.0,0.2729
+all_clinvar,rmsf,"mean backbone RMSF (absolute, Angstrom)",0.125,0.1827,0.0652,0.013,0.0196,15.0,0.2729
+all_clinvar,pct_protein,"within-protein percentile, label-free reference",0.0153,0.0539,0.0652,0.0102,1.0,15.0,0.2729
+all_clinvar,am_res,AlphaMissense residue mean (absolute scale),0.1037,0.1868,0.0656,0.0134,0.0196,15.0,0.2729
+all_clinvar,am_res_minmax,"AlphaMissense residue mean, per-protein min-max",0.071,0.1454,0.0657,0.0105,0.3333,15.0,0.2729
+all_clinvar,am_res_xdcs,AlphaMissense residue mean x published DCS multiplier,0.1622,0.2546,0.0686,0.0163,0.0196,15.0,0.2729
+all_clinvar,am_res_pct,"AlphaMissense residue mean, within-protein percentile",0.0005,0.0019,0.064,0.0114,1.0,15.0,0.2729

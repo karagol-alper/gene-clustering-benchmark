@@ -1,0 +1,7 @@
+{
+ "n_validated": 40,
+ "max_err_conservation": 8.158385078615993e-11,
+ "max_err_norm_dynamics": 1.0243084158645388e-10,
+ "max_err_rmsf": 8.842967469391283e-10,
+ "n_reconstructed": 88
+}
